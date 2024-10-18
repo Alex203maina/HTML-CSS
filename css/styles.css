@@ -25,7 +25,7 @@ main p {
 
 /* Styling for the button */
 button {
-    background-color: #4CAF50;
+    background-color: #380202;
     color: white;
     padding: 10px 20px;
     font-size: 16px;
@@ -36,5 +36,24 @@ button {
 }
 
 button:hover {
+    background-color: #ffdd00;
+}
+.portfolio-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #4CAF50;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.portfolio-link:hover {
     background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.portfolio-link:focus {
+    outline: 3px solid #4CAF50;
+    background-color: #333;
 }
